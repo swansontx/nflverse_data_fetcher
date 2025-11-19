@@ -20,6 +20,20 @@ A Python library for downloading NFL data from the [nflverse-data](https://githu
 pip install -r requirements.txt
 ```
 
+## Getting Data
+
+**Run the interactive update script** to download data (tests if downloads work in your environment):
+
+```bash
+python update_data.py
+```
+
+This script will:
+- Test if downloads work in your environment
+- Show all available datasets
+- Interactively download what you need
+- Provide manual instructions if downloads are blocked
+
 ## Quick Start (Local Mode - Recommended)
 
 If GitHub release downloads are blocked or you want offline access:
