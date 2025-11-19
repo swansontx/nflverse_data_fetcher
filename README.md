@@ -22,7 +22,20 @@ pip install -r requirements.txt
 
 ## Getting Data
 
-**Run the interactive update script** to download data (tests if downloads work in your environment):
+### Method 1: Google Colab (Recommended for Restricted Networks)
+
+If you're in a restricted network environment, use Google Colab to download data:
+
+1. Open `download_via_colab.ipynb` in Google Colab
+2. Run all cells
+3. Files auto-download to your computer
+4. Use LocalDataFetcher with those files
+
+See [COLAB_WORKFLOW.md](COLAB_WORKFLOW.md) for detailed instructions.
+
+### Method 2: Interactive Update Script
+
+Run the interactive update script to download data (tests if downloads work):
 
 ```bash
 python update_data.py
