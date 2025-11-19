@@ -65,10 +65,12 @@ venv.bak/
 .DS_Store
 Thumbs.db
 
-# NFLverse data cache
+# NFLverse data cache and downloaded repos
 .nflverse_cache/
 cache/
 data/
+nflverse-data/
+nflverse_data/
 *.csv
 *.parquet
 *.rds
